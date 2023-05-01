@@ -1,0 +1,26 @@
+# prompt theme
+zmodule prompt-pwd
+zmodule git-info
+zmodule sorin
+
+# utility
+zmodule utility
+zmodule magic-enter
+zmodule input
+zmodule git
+zmodule environment
+
+zmodule zsh-users/zsh-syntax-highlighting
+zmodule zsh-users/zsh-autosuggestions
+
+# zmodule zsh-users/zsh-completions --fpath src
+# zsh-completions installed by pacman
+
+# completions
+zmodule pacman
+zmodule kiesman99/zim-zoxide
+zmodule joke/zim-github-cli
+zmodule ~/.cache/zim/modules/completion-extra --fpath src
+
+# MUST place last! 
+zmodule completion
